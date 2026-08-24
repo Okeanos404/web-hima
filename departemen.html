@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Hubungi HIMASI - Himpunan Mahasiswa Sistem Informasi Universitas Krisnadwipayana.">
+    <title>Departemen - HIMASI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="assets/favicon.ico">
+</head>
+
+<body class="page-load">
+
+    <div class="container-box">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top w-100">
+            <div class="container-fluid">
+
+                <!-- Logo -->
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="assets/logo-himasi.png" alt="Logo HIMASI" width="45" height="45" class="me-2"> 
+                    <div class="navbar-text-box d-flex flex-column justify-content-center" style="line-height: 1.1;">
+                        <span class="nav-title">Himpunan Mahasiswa Sistem Informasi</span>
+                        <span class="nav-subtitle">Universitas Krisnadwipayana</span>
+                    </div>
+                </a>
+
+                <!-- Button Mobile -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menu -->
+                <div class="collapse navbar-collapse" id="navMenu">
+                    <ul class="navbar-nav ms-auto text-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="beranda.html">
+                                <i class="fas fa-house-laptop"></i> Beranda
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="tentang-kami.html">
+                                <i class="fas fa-circle-info"></i> Tentang Kami
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="departemen.html">
+                                <i class="fas fa-sitemap"></i> Departemen
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+        <main class="text-white" style="padding-top: 120px;">
+            <section class="container mt-5 pt-5 text-center" data-aos="fade-up">
+                <h3 class="display-5 fw-bold text-white mb-3">Struktur <span style="color: var(--dodger-blue);">Kepengurusan</span></h3>
+                <p class="fs-5 mb-5" style="color: #ddd; max-width: 700px; margin: 0 auto;">Struktur kepengurusan HIMASI disusun secara hierarkis untuk mendukung kinerja organisasi secara optimal dan terarah.</p>
+                <div class="org-chart-wrapper">
+                    <div class="piramida-himasi">
+                    <!-- Ketua -->
+                    <div class="piramida-row">
+                        <div class="piramida-card">
+                            <img src="assets/img/BPH/Ketua - Riyan Samuel Harahap.png" alt="Ketua HIMASI">
+                            <h6>Ketua</h6>
+                            <p>[Riyan Samuel Harahap]</p>
+                        </div>
+                    </div>
+
+                    <!-- Wakil -->
+                    <div class="piramida-row">
+                        <div class="piramida-card">
+                            <img src="assets/img/BPH/Wakil Ketua - Khemal Aziz Ayubi.png" alt="Wakil Ketua">
+                            <h6>Wakil Ketua</h6>
+                            <p>[Khemal Aziz Ayubi]</p>
+                        </div>
+                    </div>
+
+                    <!-- Sekretaris -->
+                    <div class="piramida-row">
+                        <div class="piramida-card">
+                            <img src="assets/img/BPH/Sekretaris - Alissya Zoelyana M.P.png" alt="Sekretaris 1">
+                            <h6>Sekretaris</h6>
+                            <p>[Alissya Zoelyana M.P]</p>
+                        </div>
+                    </div>
+
+                    <!-- Bendahara -->
+                    <div class="piramida-row">
+                        <div class="piramida-card">
+                            <img src="assets/img/BPH/Bendahara - Adelia Chaerunnisa.png" alt="Bendahara 1">
+                            <h6>Bendahara</h6>
+                            <p>[Adelia Chaerunnisa]</p>
+                        </div>
+                    </div>
+
+                    <!-- Humas -->
+                    <div class="piramida-row has-branches cards-3 staggered-row">
+                        <div class="piramida-card is-member">
+                            <img src="assets/img/BPH/Anggota Departemen Humas - Irfan Maulana.png" alt="Humas 2">
+                            <h6>Anggota Departemen Humas</h6>
+                            <p>[Irfan Maulana]</p>
+                        </div>
+                        <div class="piramida-card is-kepala">
+                            <img src="assets/img/BPH/Kepala Departemen Humas - Ahmad Daris Khoery.png" alt="Humas 1">
+                            <h6>Kepala Departemen Humas</h6>
+                            <p>[Ahmad Daris Khoery]</p>
+                        </div>
+                        <div class="piramida-card is-member">
+                            <img src="assets/img/BPH/Anggota Departemen Humas - Saskya Amalia Putri.png" alt="Humas 2">
+                            <h6>Anggota Departemen Humas</h6>
+                            <p>[Saskya Amalia Putri]</p>
+                        </div>
+                    </div>
+
+                    <!-- PDD -->
+                    <div class="piramida-row has-branches cards-2 staggered-row-2">
+                        <div class="piramida-card is-kepala">
+                            <img src="assets/img/BPH/Kepala Departemen PDD - Dina.png" alt="PDD 1">
+                            <h6>Kepala Departemen PDD</h6>
+                            <p>[Dina]</p>
+                        </div>
+                        <div class="piramida-card is-member">
+                            <img src="assets/img/BPH/Anggota Departemen PDD - Hanif Prilaksono.png" alt="PDD 2">
+                            <h6>Anggota Departemen PDD</h6>
+                            <p>[Hanif Prilaksono]</p>
+                        </div>
+                    </div>
+
+                    <!-- Akademik -->
+                    <div class="piramida-row has-branches cards-2 staggered-row-2">
+                        <div class="piramida-card is-kepala">
+                            <img src="assets/img/BPH/Kepala Departemen Akademik - Ari Sigit Purnomo.png" alt="Akademik 1">
+                            <h6>Kepala Departemen Akademik</h6>
+                            <p>[Ari Sigit Purnomo]</p>
+                        </div>
+                        <div class="piramida-card is-member">
+                            <img src="assets/img/BPH/Anggota Departemen Akademik - Andi Annisa Sabiha Zaib.png" alt="Akademik 2">
+                            <h6>Anggota Departemen Akademik</h6>
+                            <p>[Andi Annisa Sabiha Zaib]</p>
+                        </div>
+                    </div>
+
+                    <!-- PSDM -->
+                    <div class="piramida-row has-branches cards-3 staggered-row">
+                        <div class="piramida-card is-member">
+                            <img src="assets/img/BPH/Anggota Departemen PSDM - Ilyas Yusuf Umar.png" alt="Non Akademik 2">
+                            <h6>Anggota Departemen PSDM</h6>
+                            <p>[Ilyas Yusuf Umar]</p>
+                        </div>
+                        <div class="piramida-card is-kepala">
+                            <img src="assets/img/BPH/Kepala Departemen PSDM - Samuel Malau.png" alt="Non Akademik 1">
+                            <h6>Kepala Departemen PSDM</h6>
+                            <p>[Samuel Malau]</p>
+                        </div>
+                        <div class="piramida-card is-member">
+                            <img src="assets/img/BPH/Anggota Departemen PSDM - Abdul Gofur.png" alt="Non Akademik 2">
+                            <h6>Anggota Departemen PSDM</h6>
+                            <p>[Abdul Gofur]</p>
+                        </div>
+                    </div>
+
+                    <!-- Kewirausahaan -->
+                    <div class="piramida-row has-branches cards-2 staggered-row-2">
+                        <div class="piramida-card is-kepala">
+                            <img src="assets/img/BPH/Kepala Departemen Kewirausahaan - Kayla Feryal.png" alt="Wirausaha 1">
+                            <h6>Kepala Departemen Kewirausahaan</h6>
+                            <p>[Kayla Feryal]</p>
+                        </div>
+                        <div class="piramida-card is-member">
+                            <img src="assets/img/BPH/Anggota Departemen Kewirausahaan -Aulia Desiana.png" alt="Wirausaha 2">
+                            <h6>Anggota Departemen Kewirausahaan</h6>
+                            <p>[Aulia Desiana]</p>
+                        </div>
+                    </div>
+
+                    <!-- Sapras RT -->
+                    <div class="piramida-row has-branches cards-2 staggered-row-2">
+                        <div class="piramida-card is-kepala">
+                            <img src="assets/img/BPH/Kepala Departemen Sapras RT - Nasheeka Azahra M.P.png" alt="Sapras 1">
+                            <h6>Kepala Departemen Sapras RT</h6>
+                            <p>[Nasheeka Azahra M.P]</p>
+                        </div>
+                        <div class="piramida-card is-member">
+                            <img src="assets/img/BPH/Anggota Departemen Sapras RT- Mayang Wulan.png" alt="Sapras 2">
+                            <h6>Anggota Departemen Sapras RT</h6>
+                            <p>[Mayang Wulan]</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer-modern">
+            <div class="container pb-2">
+                <div class="row justify-content-center">
+                    
+                    <!-- Kiri: Logo dan Info HIMASI -->
+                    <div class="col-md-4 mb-5 mb-md-0 d-flex flex-column align-items-center text-center">
+                        <img src="assets/logo-himasi.png" alt="Logo HIMASI" class="footer-logo mb-3" style="width: 160px; height: auto;">
+                        <h4 class="fw-bold mb-2" style="letter-spacing: 1.5px; font-size: 2rem;">HIMASI</h4>
+                        <p class="mb-0" style="font-size: 1.25rem; line-height: 1.5; opacity: 0.9;">
+                            Himpunan Mahasiswa Sistem Informasi<br>
+                            Universitas Krisnadwipayana
+                        </p>
+                    </div>
+
+                    <!-- Tengah: Sosial Media dan Layanan Informasi -->
+                    <div class="col-md-4 mb-5 mb-md-0 d-flex flex-column align-items-center">
+                        <div style="max-width: 300px;">
+                            <h6 class="fw-bold mb-3 text-center" style="color: #ffd700; text-transform: uppercase; letter-spacing: 1.5px; font-size: 1.3rem;">Layanan & Sosial Media</h6>
+                            <div class="footer-contact-list w-100 text-start">
+                                <a href="tel:+628988413318" class="footer-contact-item">
+                                    <div class="footer-contact-icon"><i class="fas fa-phone-alt"></i></div>
+                                    <div>
+                                        <div class="footer-contact-text-title">No. Telpon</div>
+                                        <div class="footer-contact-text-desc">(+62) 8988413318</div>
+                                    </div>
+                                </a>
+
+                                <a href="https://www.instagram.com/himasiunkris?igsh=MXE5bnplZWJvNnNobw==" class="footer-contact-item">
+                                    <div class="footer-contact-icon"><i class="fab fa-instagram"></i></div>
+                                    <div>
+                                        <div class="footer-contact-text-title">Instagram</div>
+                                        <div class="footer-contact-text-desc">himasiunkris</div>
+                                    </div>
+                                </a>
+
+                                <a href="https://www.tiktok.com/@himasi.unkris?_r=1&_t=ZS-998AT7Jnlor" class="footer-contact-item">
+                                    <div class="footer-contact-icon"><i class="fab fa-tiktok"></i></div>
+                                    <div>
+                                        <div class="footer-contact-text-title">TikTok</div>
+                                        <div class="footer-contact-text-desc">@himasi.unkris</div>
+                                    </div>
+                                </a>
+
+                                <a href="mailto:himasiuk@gmail.com" class="footer-contact-item">
+                                    <div class="footer-contact-icon"><i class="fas fa-envelope"></i></div>
+                                    <div>
+                                        <div class="footer-contact-text-title">Email</div>
+                                        <div class="footer-contact-text-desc">himasiuk@gmail.com</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Kanan: QR Code -->
+                    <div class="col-md-4 mb-4 mb-md-0 d-flex flex-column align-items-center">
+                        <div class="qr-pmb-container d-flex flex-column align-items-center" style="margin: 0; max-width: 250px;">
+                            <h5 class="fw-bold mb-3 text-center" style="color: #ffd700; text-transform: uppercase; letter-spacing: 1.5px; font-size: 1.5rem;">Let's Join Us</h5>
+                            <img src="assets/QR_pmb.png" alt="QR PMB" class="qr-pmb-img mb-2" style="width: 180px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.3); border: 2px solid rgba(255,255,255,0.1);">
+                            <p class="qr-text-bottom fw-bold mb-0 mt-2" style="color: #ddd; font-size: 1.3rem; letter-spacing: 1px;">Scan me!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="mt-4 mb-3" style="border-color: rgba(255, 255, 255, 0.2);">
+
+                <!-- Copyright -->
+                <div class="text-center w-100 d-flex justify-content-center">
+                    <p class="mb-0" style="font-size: 0.9rem; color: rgba(255,255,255,0.7); letter-spacing: 0.5px;">
+                        Copyright &copy; 2025 <span class="fw-bold text-white">HIMASI UNKRIS</span>. All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="script.js"></script>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/628988413318" target="_blank" id="waFloatBtn" title="Hubungi Kami via WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</body>
+
+</html>
