@@ -331,14 +331,14 @@ footer {
 }
 
 .footer-contact-icon {
-  width: 48px;
-  height: 48px;
+  width: clamp(35px, 10vw, 48px);
+  height: clamp(35px, 10vw, 48px);
   background: rgba(255,255,255,0.1);
   display: inline-flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  font-size: 20px;
+  font-size: clamp(14px, 4vw, 20px);
   margin-right: 18px;
   transition: all 0.3s ease;
   color: var(--white);
@@ -352,7 +352,7 @@ footer {
 }
 
 .footer-contact-text-title {
-  font-size: 0.9rem;
+  font-size: clamp(0.7rem, 2.5vw, 0.9rem);
   font-weight: 700;
   color: #ffd700;
   line-height: 1.2;
@@ -361,7 +361,7 @@ footer {
 }
 
 .footer-contact-text-desc {
-  font-size: 1.1rem;
+  font-size: clamp(0.9rem, 3.5vw, 1.1rem);
   line-height: 1.2;
   margin-top: 4px;
 }
